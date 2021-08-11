@@ -114,20 +114,18 @@ public class ClassMapping {
             return fullPath;
         }
 
-        private void registerClass(String fullClassName) {
+        private void registerClass(String canonicalName) {
             if (excludes != null &&
                     !excludes.isBlank() &&
                     stream(excludes.split(";")).anyMatch(
-                            exclude -> Pattern.compile(exclude).matcher(fullClassName).find())) {
+                            exclude -> Pattern.compile(exclude).matcher(canonicalName).find())) {
                 return;
-
             }
 
-            String shortClassName = fullClassName.replace(".java", "");
             try {
-                classSet.add(classLoader.loadClass(shortClassName));
+                classSet.add(classLoader.loadClass(canonicalName));
             } catch (ClassNotFoundException | NoClassDefFoundError e) {
-                reporter.warn("can't load class " + shortClassName);
+                reporter.warn("can't load class " + canonicalName);
             }
         }
 
