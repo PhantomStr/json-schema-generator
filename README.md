@@ -18,7 +18,7 @@ add plugin in pom<br>
     <build>
         <plugins>
             <plugin>
-                <groupId>com.phantomstr.testing.tool</groupId>
+                <groupId>io.github.phantomstr.testing-tools</groupId>
                 <artifactId>json-schema-generator</artifactId>
                 <version>1.0.0</version>
                 <configuration>
