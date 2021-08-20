@@ -3,7 +3,7 @@ package com.phantomstr.testing.tool.json.schema.generator;
 import com.phantomstr.testing.tool.json.schema.generator.reporter.Reporter;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.cli.CommandLine;
-import org.apache.commons.cli.DefaultParser;
+import org.apache.commons.cli.BasicParser;
 import org.apache.commons.cli.HelpFormatter;
 import org.apache.commons.cli.Option;
 import org.apache.commons.cli.Options;
@@ -56,7 +56,7 @@ public final class App {
     private static CommandLine getCommandLine(String[] args) {
         Options options = getOptions();
         try {
-            return new DefaultParser().parse(options, args);
+            return new BasicParser().parse(options, args);
         } catch (ParseException pe) {
             HelpFormatter formatter = new HelpFormatter();
             formatter.printHelp("codegen", options);
