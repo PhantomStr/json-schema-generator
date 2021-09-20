@@ -20,7 +20,7 @@ add plugin in pom<br>
             <plugin>
                 <groupId>io.github.phantomstr.testing-tools</groupId>
                 <artifactId>json-schema-generator</artifactId>
-                <version>1.0.1</version>
+                <version>1.0.2-SNAPSHOT</version>
                 <configuration>
                     <packages>
                         <package>my.project.models</package>
