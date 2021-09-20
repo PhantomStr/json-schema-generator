@@ -1,6 +1,6 @@
-package com.phantomstr.testing.tool.json.schema.generator.mapping;
+package io.github.phantomstr.testing.tool.json.schema.generator.mapping;
 
-import com.phantomstr.testing.tool.json.schema.generator.reporter.Reporter;
+import io.github.phantomstr.testing.tool.json.schema.generator.reporter.Reporter;
 import lombok.Setter;
 import lombok.experimental.Accessors;
 import org.apache.commons.lang3.StringUtils;
@@ -20,10 +20,10 @@ import java.util.HashSet;
 import java.util.Set;
 import java.util.regex.Pattern;
 
-import static com.phantomstr.testing.tool.json.schema.generator.GlobalParameters.excludes;
-import static com.phantomstr.testing.tool.json.schema.generator.GlobalParameters.includes;
-import static com.phantomstr.testing.tool.json.schema.generator.GlobalParameters.outputDirectory;
-import static com.phantomstr.testing.tool.json.schema.generator.GlobalParameters.packages;
+import static io.github.phantomstr.testing.tool.json.schema.generator.GlobalParameters.excludes;
+import static io.github.phantomstr.testing.tool.json.schema.generator.GlobalParameters.includes;
+import static io.github.phantomstr.testing.tool.json.schema.generator.GlobalParameters.outputDirectory;
+import static io.github.phantomstr.testing.tool.json.schema.generator.GlobalParameters.packages;
 import static java.util.Arrays.stream;
 
 @Accessors(chain = true)

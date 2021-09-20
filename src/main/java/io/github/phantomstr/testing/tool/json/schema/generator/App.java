@@ -1,9 +1,9 @@
-package com.phantomstr.testing.tool.json.schema.generator;
+package io.github.phantomstr.testing.tool.json.schema.generator;
 
-import com.phantomstr.testing.tool.json.schema.generator.reporter.Reporter;
+import io.github.phantomstr.testing.tool.json.schema.generator.reporter.Reporter;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.commons.cli.CommandLine;
 import org.apache.commons.cli.BasicParser;
+import org.apache.commons.cli.CommandLine;
 import org.apache.commons.cli.HelpFormatter;
 import org.apache.commons.cli.Option;
 import org.apache.commons.cli.Options;
@@ -12,10 +12,10 @@ import org.apache.commons.cli.ParseException;
 import java.util.Arrays;
 import java.util.stream.Collectors;
 
-import static com.phantomstr.testing.tool.json.schema.generator.MavenGenerateGoal.EXCLUDE;
-import static com.phantomstr.testing.tool.json.schema.generator.MavenGenerateGoal.INCLUDE;
-import static com.phantomstr.testing.tool.json.schema.generator.MavenGenerateGoal.PACKAGES;
-import static com.phantomstr.testing.tool.json.schema.generator.MavenGenerateGoal.TARGET_DIRECTORY;
+import static io.github.phantomstr.testing.tool.json.schema.generator.MavenGenerateGoal.EXCLUDE;
+import static io.github.phantomstr.testing.tool.json.schema.generator.MavenGenerateGoal.INCLUDE;
+import static io.github.phantomstr.testing.tool.json.schema.generator.MavenGenerateGoal.PACKAGES;
+import static io.github.phantomstr.testing.tool.json.schema.generator.MavenGenerateGoal.TARGET_DIRECTORY;
 
 
 @Slf4j

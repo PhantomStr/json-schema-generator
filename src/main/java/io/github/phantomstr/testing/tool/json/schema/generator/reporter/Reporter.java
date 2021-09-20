@@ -1,6 +1,6 @@
-package com.phantomstr.testing.tool.json.schema.generator.reporter;
+package io.github.phantomstr.testing.tool.json.schema.generator.reporter;
 
-import com.phantomstr.testing.tool.json.schema.generator.GlobalParameters;
+import io.github.phantomstr.testing.tool.json.schema.generator.GlobalParameters;
 import lombok.Setter;
 import lombok.experimental.Accessors;
 import org.slf4j.Logger;

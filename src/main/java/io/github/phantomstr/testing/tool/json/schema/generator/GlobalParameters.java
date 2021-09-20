@@ -1,6 +1,6 @@
-package com.phantomstr.testing.tool.json.schema.generator;
+package io.github.phantomstr.testing.tool.json.schema.generator;
 
-import com.phantomstr.testing.tool.json.schema.generator.reporter.Reporter;
+import io.github.phantomstr.testing.tool.json.schema.generator.reporter.Reporter;
 
 
 public class GlobalParameters {

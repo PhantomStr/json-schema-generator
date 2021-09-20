@@ -1,4 +1,4 @@
-package com.phantomstr.testing.tool.json.schema.generator;
+package io.github.phantomstr.testing.tool.json.schema.generator;
 
 
 import lombok.Getter;
@@ -9,7 +9,7 @@ import org.apache.maven.plugins.annotations.Mojo;
 import org.apache.maven.plugins.annotations.Parameter;
 import org.apache.maven.plugins.annotations.ResolutionScope;
 
-import static com.phantomstr.testing.tool.json.schema.generator.App.main;
+import static io.github.phantomstr.testing.tool.json.schema.generator.App.main;
 import static java.lang.String.join;
 
 

@@ -1,4 +1,4 @@
-package com.phantomstr.testing.tool.json.schema.generator.schema;
+package io.github.phantomstr.testing.tool.json.schema.generator.schema;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;

@@ -1,13 +1,13 @@
-package com.phantomstr.testing.tool.json.schema.generator;
+package io.github.phantomstr.testing.tool.json.schema.generator;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.module.jsonSchema.JsonSchema;
 import com.fasterxml.jackson.module.jsonSchema.customProperties.ValidationSchemaFactoryWrapper;
 import com.fasterxml.jackson.module.jsonSchema.factories.SchemaFactoryWrapper;
-import com.phantomstr.testing.tool.json.schema.generator.mapping.ClassMapping;
-import com.phantomstr.testing.tool.json.schema.generator.reporter.Reporter;
-import com.phantomstr.testing.tool.json.schema.generator.schema.GenerateSchemas;
+import io.github.phantomstr.testing.tool.json.schema.generator.mapping.ClassMapping;
+import io.github.phantomstr.testing.tool.json.schema.generator.reporter.Reporter;
+import io.github.phantomstr.testing.tool.json.schema.generator.schema.GenerateSchemas;
 import lombok.Setter;
 import lombok.experimental.Accessors;
 import lombok.extern.slf4j.Slf4j;
@@ -17,7 +17,7 @@ import java.io.File;
 import java.io.IOException;
 import java.nio.file.Paths;
 
-import static com.phantomstr.testing.tool.json.schema.generator.mapping.ClassMapping.classSet;
+import static io.github.phantomstr.testing.tool.json.schema.generator.mapping.ClassMapping.classSet;
 
 @Accessors(chain = true)
 @Slf4j
